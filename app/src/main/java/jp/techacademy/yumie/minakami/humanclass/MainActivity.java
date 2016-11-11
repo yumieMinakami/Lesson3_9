@@ -17,21 +17,24 @@ public class MainActivity extends AppCompatActivity {
         //dog.move();
 
         // Lesson3 9-1
-        Log.d("javatest", "     Lesson3 9 課題1個目");
-        Human human = new Human("山田太郎", 5);
-        human.say();
-
-        // Lesson3 9-2
-        Log.d("javatest", "     Lesson3 9 課題2個目");
-        human.think();
-
-        // Lesson3 9-3
-        Log.d("javatest", "     Lesson3 9 課題3個目");
-        Human human1 = new Human("鈴木花子", 100);
-        human1.say();
-
-        Human human2 = new Human("〇〇");
-        human2.think();
+//        Log.d("javatest", "     Lesson3 9 課題1個目");
+//        Human human = new Human("山田太郎", 5);
+//        human.say();
+//
+//        // Lesson3 9-2
+//        Log.d("javatest", "     Lesson3 9 課題2個目");
+//        human.think();
+//
+//        // Lesson3 9-3
+//        Log.d("javatest", "     Lesson3 9 課題3個目");
+//        Human human1 = new Human("鈴木花子", 100);
+//        human1.say();
+//
+//        Human human2 = new Human("〇〇");
+//        human2.think();
+        Human human0 = new Human("山田太郎", 5, "〇〇");
+        human0.say();
+        human0.think();
 
     }
 
